@@ -1,0 +1,138 @@
+
+
+header h1{
+
+    margin-top: 0;
+    padding: 0;
+    background-color: palevioletred;
+    height: 100px;
+    padding-top: 20px ;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav img {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 325px;
+    margin: 0;
+    padding: 0;
+  }
+
+ main{
+    background-color: antiquewhite;
+    height: 100%;
+    padding-top: 320px;
+    align-items: left;
+    margin-bottom: 0px;
+    
+ }
+
+ main h2 {
+    color: rgb(165, 26, 72);
+    margin-left: 100px;
+    font-size: 40px;
+    max-width: 800px;
+    text-align: left;
+    display: inline-block
+  }
+
+  main h2 span {
+    display: block;
+    line-height: 1.2;
+  }
+
+  main h3 {
+    margin-top: 20px;
+    clear: both;
+    text-align: left;
+    margin-left: 100px;
+    display: block;
+    max-width: 500px;
+    font-size: 20px;
+  }
+
+  main h4 {
+    margin-top: 20px;
+    clear: both;
+    text-align: left;
+    margin-left: 100px;
+    display: block;
+    max-width: 500px;
+    font-size: 20px;
+  }
+
+  footer{
+
+    margin-top: 0;
+    padding: 0;
+    background-color: palevioletred;
+    height: 100px;
+
+    
+
+    
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #funder {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .textos {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .textos {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .caixas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-right: 75px;
+    max-width: 500px;
+    padding: 10px;
+    
+  }
+  
+  .caixa {
+    width: calc(50% - 10px);
+    padding: 12px;
+    box-sizing: border-box;
+    max-width: 390px;
+    border: 10px;
+    text-align: center;
+    margin-bottom: -34px;
+  }
+  
+  .caixa img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid palevioletred;
+  }
+
+ p{
+  background-color: palevioletred;
+  margin-top: -10px;
+  border: 5px solid palevioletred ;
+  margin-right: -4px;
+ }
